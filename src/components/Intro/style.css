@@ -1,0 +1,107 @@
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.overflow-visible {
+    overflow: visible;
+}
+.p-6 {
+    padding: 1.5rem/* 24px */;
+}
+.h-full {
+    height: 100%;
+}
+.w-32 {
+    width: 8rem/* 128px */;
+}
+.right-0 {
+    right: 0px;
+}
+.translate-y-1\/4 {
+    --tw-translate-y: 25%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.mt-12 {
+    margin-top: 3rem/* 48px */;
+}
+.h-6 {
+    height: 1.5rem/* 24px */;
+}
+.bottom-0 {
+    bottom: 0px;
+}
+.font-bold {
+    font-weight: 700;
+}
+.pt-12 {
+    padding-top: 3rem/* 48px */;
+}
+.h-full {
+    height: 100%;
+}
+.justify-center {
+    justify-content: center;
+}
+
+@media (min-width: 1280px) {
+    .xl\:flex-row {
+        flex-direction: row;
+    }
+}
+@media (min-width: 1280px) {
+    .xl\:gap-36 {
+        gap: 9rem/* 144px */;
+    }
+    .xl\:w-1\/2 {
+        width: 50%;
+    }
+    .xl\:gap-16 {
+        gap: 4rem/* 64px */;
+    }
+
+}
+.text-xl {
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+}
+.text-center {
+    text-align: center;
+}
+.font-bold {
+    font-weight: 700;
+}
+.text-xl {
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+}
+.w-full {
+    width: 100%;
+}
+
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.mx-12 {
+    margin-left: 3rem/* 48px */;
+    margin-right: 3rem/* 48px */;
+}
+.font-bold {
+    font-weight: 700;
+}
+#border-path {
+    animation: draw 1s forwards 1s ease-out;
+  }
+
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
